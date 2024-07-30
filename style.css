@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PT:wght@100..400&display=swap');
+
+*{
+  margin: 0px;  
+  padding:0px;
+
+}
+
+        p{
+           font-family: "playwrite pt";
+           font-size: 1em;
+        }
+
+header{
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    text-align:center ;
+    padding: 27px;
+}
+
+header a{
+    color: white;
+}
+
+a:hover{
+    text-decoration:line;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section p {
+    padding-left: 50px;
+}
+
+section.normal{
+    background-color: white;
+}
+
+section.imagen{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}  
+
+ section.imagen p{
+    background-color: rgb(77, 77, 77);
+    width: 200px;
+    padding: 1px;
+    margin: 20px;
+}
+
+  section#img1{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  section#img2{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+footer p{
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
